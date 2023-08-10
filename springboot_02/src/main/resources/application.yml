@@ -1,0 +1,20 @@
+#服务器端口
+server:
+  port: 80
+
+#banner配置
+spring:
+  main:
+    banner-mode: off
+
+name: "覃罡彤"
+
+#创建类，用于封装下面的数据
+#由spring帮我们去加载到对象中。一定要告诉spring加载这组信息
+
+datasource:
+  driver: xxxxx
+  url: xxxxx
+  username : xxxxx
+  password: xxxxxx
+
