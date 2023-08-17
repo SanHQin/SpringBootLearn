@@ -5,11 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="d1741bd2-1870-484f-ae31-5834d62cbaca" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_07_ssmp" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_07_ssmp" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_07_ssmp/src/main/java/com/itgt/controller/StudentController.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_07_ssmp/src/main/java/com/itgt/controller/StudentController.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/springboot_07_ssmp/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_07_ssmp/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/springboot_08_test/src/test/java/com/itgt/WebTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/springboot_08_test/src/test/java/com/itgt/WebTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -51,11 +49,15 @@
     "Repository.Attach.Sources": "false",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "G:/项目/SpringBootLearn",
+    "jdk.selected.JAVA_MODULE": "corretto-17",
+    "last_opened_file_path": "G:/项目/SpringBootLearn/springboot_10_cache",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
+    "project.structure.last.edited": "Modules",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
     "settings.editor.selected.configurable": "reference.settings.project.maven.importing",
     "spring.configuration.checksum": "07fafe5cdd4f03b2a7a13e6ce81e50d8",
     "vue.rearranger.settings.migration": "true"
@@ -136,6 +138,8 @@
       <updated>1691675867953</updated>
       <workItem from="1691675868938" duration="916000" />
       <workItem from="1691938585746" duration="40000" />
+      <workItem from="1692282032448" duration="165000" />
+      <workItem from="1692282245296" duration="26000" />
     </task>
     <servers />
   </component>

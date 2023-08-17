@@ -1,0 +1,36 @@
+2023-08-17T23:04:25.279+08:00  INFO 16360 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-17T23:04:31.405+08:00  INFO 15276 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 15276 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-17T23:04:31.409+08:00  INFO 15276 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-17T23:04:32.936+08:00  INFO 15276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-17T23:04:32.948+08:00  INFO 15276 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-17T23:04:32.950+08:00  INFO 15276 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17T23:04:33.086+08:00  INFO 15276 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-17T23:04:33.087+08:00  INFO 15276 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1606 ms
+2023-08-17T23:04:34.241+08:00  INFO 15276 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-17T23:04:34.255+08:00  INFO 15276 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 3.664 seconds (process running for 4.541)
+2023-08-17T23:04:40.099+08:00  INFO 15276 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17T23:04:40.099+08:00  INFO 15276 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17T23:04:40.101+08:00  INFO 15276 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2023-08-17T23:30:42.868+08:00  INFO 15276 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-17T23:35:57.817+08:00  INFO 10768 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 10768 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-17T23:35:57.820+08:00  INFO 10768 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-17T23:35:59.338+08:00  INFO 10768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-17T23:35:59.350+08:00  INFO 10768 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-17T23:35:59.351+08:00  INFO 10768 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17T23:35:59.476+08:00  INFO 10768 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-17T23:35:59.476+08:00  INFO 10768 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1590 ms
+2023-08-17T23:36:00.646+08:00  INFO 10768 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-17T23:36:00.657+08:00  INFO 10768 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 3.595 seconds (process running for 4.599)
+2023-08-17T23:36:34.612+08:00  INFO 10768 --- [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-17T23:36:34.613+08:00  INFO 10768 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-17T23:36:34.614+08:00  INFO 10768 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-17T23:37:26.019+08:00  INFO 10768 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-17T23:37:31.112+08:00  INFO 8644 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 8644 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-17T23:37:31.120+08:00  INFO 8644 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-17T23:37:32.575+08:00  INFO 8644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-17T23:37:32.586+08:00  INFO 8644 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-17T23:37:32.587+08:00  INFO 8644 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-17T23:37:32.713+08:00  INFO 8644 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-17T23:37:32.713+08:00  INFO 8644 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1526 ms
+2023-08-17T23:37:34.007+08:00  INFO 8644 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-17T23:37:34.022+08:00  INFO 8644 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 3.6 seconds (process running for 4.506)
