@@ -1,0 +1,39 @@
+2023-08-18T22:34:48.052+08:00  INFO 16996 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-18T22:34:51.676+08:00  INFO 2764 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 2764 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-18T22:34:51.679+08:00  INFO 2764 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-18T22:34:53.236+08:00  INFO 2764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-18T22:34:53.252+08:00  INFO 2764 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:34:53.254+08:00  INFO 2764 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:34:53.386+08:00  INFO 2764 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:34:53.386+08:00  INFO 2764 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1646 ms
+2023-08-18T22:34:54.742+08:00  INFO 2764 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-18T22:34:54.753+08:00  INFO 2764 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 3.775 seconds (process running for 4.859)
+2023-08-18T22:35:07.661+08:00  INFO 2764 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-18T22:35:07.662+08:00  INFO 2764 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-18T22:35:07.663+08:00  INFO 2764 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-18T22:35:47.780+08:00  INFO 2764 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-18T22:35:54.263+08:00  INFO 8020 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 8020 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-18T22:35:54.266+08:00  INFO 8020 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-18T22:35:55.745+08:00  INFO 8020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-18T22:35:55.759+08:00  INFO 8020 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:35:55.759+08:00  INFO 8020 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:35:55.882+08:00  INFO 8020 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:35:55.883+08:00  INFO 8020 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1535 ms
+2023-08-18T22:35:57.248+08:00  INFO 8020 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-18T22:35:57.260+08:00  INFO 8020 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 3.675 seconds (process running for 4.605)
+2023-08-18T22:36:18.929+08:00  INFO 8020 --- [http-nio-80-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-18T22:36:18.929+08:00  INFO 8020 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-18T22:36:18.931+08:00  INFO 8020 --- [http-nio-80-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2023-08-18T22:37:05.428+08:00  INFO 8020 --- [SpringApplicationShutdownHook] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-18T22:37:10.213+08:00  INFO 3424 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 3424 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-18T22:37:10.221+08:00  INFO 3424 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-18T22:37:11.621+08:00  INFO 3424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-18T22:37:11.634+08:00  INFO 3424 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:37:11.634+08:00  INFO 3424 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:37:11.751+08:00  INFO 3424 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:37:11.751+08:00  INFO 3424 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1464 ms
+2023-08-18T22:37:13.001+08:00  INFO 3424 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-18T22:37:13.013+08:00  INFO 3424 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 3.417 seconds (process running for 4.283)
+2023-08-18T22:37:37.482+08:00  INFO 3424 --- [http-nio-80-exec-4] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-18T22:37:37.485+08:00  INFO 3424 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-18T22:37:37.487+08:00  INFO 3424 --- [http-nio-80-exec-4] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms

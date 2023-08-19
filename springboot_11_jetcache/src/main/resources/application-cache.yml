@@ -1,0 +1,18 @@
+jetcache:
+  #控制台每几分钟输出统计报告
+  statIntervalMinutes: 1
+  remote: #远程
+    default:
+      type: redis
+      host: localhost
+      port: 6379
+      keyConvertor: fastjson
+      valueEncode: java
+      valueDecode: java
+      poolConfig:
+        maxTotal: 50
+  local:  #本地
+    default:
+      type: linkedhashmap
+      limint: 1000 #数量
+      keyConvertor: fastjson

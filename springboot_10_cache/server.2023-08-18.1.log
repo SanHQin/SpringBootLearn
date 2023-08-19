@@ -1,0 +1,55 @@
+2023-08-18T22:29:42.840+08:00  INFO 7852 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 7852 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-18T22:29:42.846+08:00  INFO 7852 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-18T22:29:44.419+08:00  INFO 7852 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-18T22:29:44.436+08:00  INFO 7852 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:29:44.437+08:00  INFO 7852 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:29:44.558+08:00  INFO 7852 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:29:44.559+08:00  INFO 7852 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1646 ms
+2023-08-18T22:29:45.656+08:00  WARN 7852 --- [main] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'cacheAutoConfigurationValidator' defined in class path resource [org/springframework/boot/autoconfigure/cache/CacheAutoConfiguration.class]: Unsatisfied dependency expressed through method 'cacheAutoConfigurationValidator' parameter 0: Error creating bean with name 'spring.cache-org.springframework.boot.autoconfigure.cache.CacheProperties': Could not bind properties to 'CacheProperties' : prefix=spring.cache, ignoreInvalidFields=false, ignoreUnknownFields=true
+2023-08-18T22:29:45.658+08:00  INFO 7852 --- [main] com.alibaba.druid.pool.DruidDataSource   : {dataSource-0} closing ...
+2023-08-18T22:29:45.662+08:00  INFO 7852 --- [main] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2023-08-18T22:29:45.711+08:00  INFO 7852 --- [main] .s.b.a.l.ConditionEvaluationReportLogger : 
+
+Error starting ApplicationContext. To display the condition evaluation report re-run your application with 'debug' enabled.
+2023-08-18T22:29:45.747+08:00 ERROR 7852 --- [main] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Failed to bind properties under 'spring.cache.type' to org.springframework.boot.autoconfigure.cache.CacheType:
+
+    Property: spring.cache.type
+    Value: "ehcache"
+    Origin: class path resource [application.yml] - 10:11
+    Reason: failed to convert java.lang.String to org.springframework.boot.autoconfigure.cache.CacheType (caused by java.lang.IllegalArgumentException: No enum constant org.springframework.boot.autoconfigure.cache.CacheType.ehcache)
+
+Action:
+
+Update your application's configuration. The following values are valid:
+
+    CACHE2K
+    CAFFEINE
+    COUCHBASE
+    GENERIC
+    HAZELCAST
+    INFINISPAN
+    JCACHE
+    NONE
+    REDIS
+    SIMPLE
+
+2023-08-18T22:33:02.619+08:00  INFO 16996 --- [main] com.itgt.SSMPApplication                 : Starting SSMPApplication using Java 17.0.8 with PID 16996 (G:\项目\SpringBootLearn\springboot_10_cache\target\classes started by Q in G:\项目\SpringBootLearn\springboot_10_cache)
+2023-08-18T22:33:02.622+08:00  INFO 16996 --- [main] com.itgt.SSMPApplication                 : The following 1 profile is active: "dev"
+2023-08-18T22:33:04.288+08:00  INFO 16996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 80 (http)
+2023-08-18T22:33:04.302+08:00  INFO 16996 --- [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2023-08-18T22:33:04.302+08:00  INFO 16996 --- [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.11]
+2023-08-18T22:33:04.437+08:00  INFO 16996 --- [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2023-08-18T22:33:04.438+08:00  INFO 16996 --- [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1733 ms
+2023-08-18T22:33:05.791+08:00  INFO 16996 --- [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 80 (http) with context path ''
+2023-08-18T22:33:05.804+08:00  INFO 16996 --- [main] com.itgt.SSMPApplication                 : Started SSMPApplication in 4.078 seconds (process running for 5.126)
+2023-08-18T22:33:35.664+08:00  INFO 16996 --- [http-nio-80-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-08-18T22:33:35.673+08:00  INFO 16996 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2023-08-18T22:33:35.675+08:00  INFO 16996 --- [http-nio-80-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
